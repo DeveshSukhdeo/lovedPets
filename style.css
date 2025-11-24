@@ -2,12 +2,21 @@ body {
     background-color: white;
 }
 
+h3 {
+    font-size: small;
+}
+
 .header {
   padding: 60px;
   text-align: center;
   background: white;
   color: #4717f6;
   font-size: 30px;
+  height: 10%;
+}
+.header_image {
+    height: 30px;
+    width: 30px;
 }
 
 
