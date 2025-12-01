@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  color: #4717f6;
 }
 
 hr {
@@ -29,10 +30,17 @@ height: 10%;
   width: 100%;
 }
 
+.banner_image img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
 .about_section{
   display: flex;
-  column-gap: 20px; 
-  margin-top: 20px; 
+  column-gap: 100px; 
+  margin-top: 25px; 
+  margin-bottom: 25px;
 }
 
 .about_left{
@@ -60,3 +68,17 @@ height: 10%;
   height: 100%;
   object-fit: fill;
 }
+
+.adopt_section{
+  margin: 25px; 
+}
+
+.volunteer_section{
+  margin: 25px; 
+}
+
+.volunteer_section ol{
+  font-size: 25px;
+}
+
+
