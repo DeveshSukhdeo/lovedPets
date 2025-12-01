@@ -21,8 +21,8 @@ height: 10%;
 }
 
 .header_image {
-  height: 100px;
-  width: 100px;
+  height: 130px;
+  width: 130px;
   justify-content: center;
 }
 
@@ -80,6 +80,11 @@ height: 10%;
 
 .volunteer_section ol{
   font-size: 25px;
+}
+
+.volunteer_section p{
+  font-size: 25px;
+  color: #4717f6;
 }
 
 
