@@ -4,76 +4,138 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Loved Pets Animal Shelter</title>
-  <link rel="stylesheet" href="style.css" type="text/css">  
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/x-icon" href="Images/pet_favicon.png"> 
 </head>
 <body>
-  <div class="header">
-    <img src="Images/pet_favicon.png" alt="Logo" class="header_image">
-    <p class="header_text">
-    <b>
-    Loved Pets Animal Shelter
-    <br>
-    6645 Watergrass Cir. Springfield, Arizona 11645
-    <br>
-    Phone: (555) 476-2984
-    </b>
-    </p>
-  </div>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <img src="Images/pet_favicon.png" alt="Logo">
+      </div>
+      <ul class="navbar-right">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#adopt">Adopt</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <hr>
-  <div class="banner_image">
-    <img src="Images/home_image.png" alt="Banner Image">
-  </div>
-  <hr>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Loved Pets Animal Shelter</h1>
+      <p>Find Your New Best Friend Here!</p>
+      <a href="#about" class="btn">Learn About Us</a>
+    </div>
+  </section>
+  
+  <section id="about">
+    <div class="about_section">
+      <div class="about_left">
+        <h1>About Us</h1>
+        <p class="about_p">
+          At Loved Pets Animal Rescue, we believe all animals deserve a chance to find a loving forever home.
+          We provide initial veterinary care to rescued animals, then work to match each animal with a human 
+          family to love them and keep them safe forever. All animals are screened for diseases upon arrival,
+          washed and groomed, and then added to our website for adoptive families to see. All potential
+          adoptive families are also screened for adoption history, household lifestyle, and commitment to
+          providing a safe and loving home.
+          <br>
+          <br>
+          We can always use volunteers to help keep our shelter open! Volunteers are needed to bathe and
+          groom animals, play with pets to help them socialize and keep them happy, clean kennels and
+          screening rooms, and help with administrative tasks in the office. If you are interested in volunteering,
+          please complete the steps below.
+        </p>
+      </div>
+      <div class="about_right">
+        <img src="Images/adoption_center.png" alt="location image">
+      </div>
+    </div>
+  </section>
 
-  <div class="about_section">
-    <div class="about_left">
-      <h1>About Us</h1>
-      <p class="about_p">
-        At Loved Pets Animal Rescue, we believe all animals deserve a chance to find a loving forever home.
-        We provide initial veterinary care to rescued animals, then work to match each animal with a human 
-        family to love them and keep them safe forever. All animals are screened for diseases upon arrival,
-        washed and groomed, and then added to our website for adoptive families to see. All potential
-        adoptive families are also screened for adoption history, household lifestyle, and commitment to
-        providing a safe and loving home.
-        <br>
-        <br>
-        We can always use volunteers to help keep our shelter open! Volunteers are needed to bathe and
-        groom animals, play with pets to help them socialize and keep them happy, clean kennels and
-        screening rooms, and help with administrative tasks in the office. If you are interested in volunteering,
-        please complete the steps below.
+  <section id="adopt" class="adopt">
+    <div class="a_section">
+      <h1>Pets Ready for Adoption</h1>
+  
+      <div class="pet-grid">
+          <!-- Repeat this card for each pet -->
+          <div class="pet-card">
+              <div class="pet-img"></div>
+              <p>Friendly dog looking for a home.</p>
+              <button>Learn More</button>
+          </div>
+  
+          <div class="pet-card">
+              <div class="pet-img">
+                <img src="" alt="">
+              </div>
+              <p>Sweet cat who loves to cuddle.</p>
+              <button>Adopt</button>
+          </div>
+  
+          <div class="pet-card">
+              <div class="pet-img">
+                <img src="" alt="">
+              </div>
+              <p>Energetic puppy ready to play.</p>
+              <button>Adopt</button>
+          </div>
+  
+          <div class="pet-card">
+              <div class="pet-img">
+                <img src="" alt="">
+              </div>
+              <p>Senior dog who loves quiet time.</p>
+              <button>Adopt</button>
+          </div>
+  
+          <div class="pet-card">
+              <div class="pet-img">
+                <img src="" alt="">
+              </div>
+              <p>Cat with a gentle personality.</p>
+              <button>Adopt</button>
+          </div>
+  
+          <div class="pet-card">
+              <div class="pet-img">
+                <img src="" alt="">
+              </div>
+              <p>Playful kitten looking for fun.</p>
+              <button>Adopt</button>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="volunteer">
+    <div class="volunteer_section">
+      <h1>How to Become a Volunteer</h1>
+      <ol>
+        <li>Complete the online application</li>
+        <li>Submit the application by emailing it to volunteer@welovepets.com</li>
+        <li>Participate in a brief phone interview</li>
+        <li>Attend a volunteer training session on the first Saturday of every month</li>
+      </ol>
+      <p class="volunteer_section_p">If you are unable to adopt a pet, becomming a volunteer is the next best thing. 
+         You can help to take care of these pets until they find loving homes of their own.
+         By donating your time and energy you are helping both the shelter and these animals 
+         who deserve love and a healthy place to live. Please consider volunteering if you 
+         have the time, your kindness will not go to waste. 
       </p>
     </div>
-    <div class="about_right">
-      <img src="Images/adoption_center.png" alt="location image">
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2025 Loved Pets. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://mail.google.com/mail/u/0/" target="_blank">Email Us</a>
+        <a href="https://mail.google.com/mail/u/0/" target="_blank">Call Us</a>
+      </div>
     </div>
-  </div>
-  <hr>
-
-  <div class="adopt_section">
-    <h1>Pets Ready for Adoption</h1>
-    
-  </div>
-  <hr>
+</footer>
   
-  <div class="volunteer_section">
-    <h1>How to Become a Volunteer</h1>
-    <ol>
-      <li>Complete the online application</li>
-      <li>Submit the application by emailing it to volunteer@welovepets.com</li>
-      <li>Participate in a brief phone interview</li>
-      <li>Attend a volunteer training session on the first Saturday of every month</li>
-    </ol>
-    <p class="volunteer_section_p">If you are unable to adopt a pet, becomming a volunteer is the next best thing. 
-       You can help to take care of these pets until they find loving homes of their own.
-       By donating your time and energy you are helping both the shelter and these animals 
-       who deserve love and a healthy place to live. Please consider volunteering if you 
-       have the time, your kindness will not go to waste. 
-    </p>
-  </div>
-
-
-
 </body>
 </html>
