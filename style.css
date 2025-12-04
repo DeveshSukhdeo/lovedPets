@@ -52,21 +52,6 @@ body {
   color: #4717f6;
 }
 
-.hero-content {
-  max-width: 700px;
-  padding: 0 1rem;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
 .btn {
   display: inline-block;
   background-color: #4717f6;
@@ -76,10 +61,6 @@ body {
   text-decoration: none;
   font-weight: 600;
   transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #d484f2;
 }
 
 .about_section{
@@ -177,6 +158,10 @@ body {
   color: white;
   border: none;
   border-radius: 8px;
+}
+
+.pet-card button:hover {
+  background-color: #d484f2;
 }
 
 /* Footer */
