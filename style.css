@@ -19,6 +19,7 @@ body {
 .navbar-left img {
   height: 30px;
   padding: none; 
+  display: flex;
 }
 
 .navbar-right {
